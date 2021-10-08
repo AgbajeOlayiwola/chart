@@ -1,0 +1,879 @@
+.alcaClpM{
+    stroke: #FFCC00;
+    transition: 2s;
+}
+.clpTsca{
+    stroke: #FFCC00;   
+    transition: 2s;
+}
+.tscaCpl{
+    stroke: #FFCC00;
+    transition: 2s;
+}
+.cplShcc{
+    stroke: #FFCC00;
+    transition: 2s;
+}
+.cplAlma{
+    stroke: #FFCC00;
+    transition: 2s;
+}
+.almaPm1{
+    stroke: #FFCC00;
+    transition: 2s; 
+}
+
+.cplAlmaB{
+    opacity: 0.5;
+}
+.cplShccB{
+    opacity: 0.5;
+}
+.cplChccB{
+    opacity: 0.5;
+}
+.cplspcaB{
+    opacity: 0.5;
+}
+.almapm1B{
+    opacity: 0.5;
+}
+.car_3{
+    animation: moveCar3 26s ease-in-out forwards ;
+    cursor: pointer;
+    display: block;
+}
+@keyframes moveCar3{
+    from{
+        
+    }to{
+
+    }
+}
+.CarM{
+    display: none;
+}
+
+/*Car animations*/
+#car_1{
+    animation: moveCar 5s ease-in-out forwards ;
+    cursor: pointer;
+    display: block;
+    
+}
+
+.heavy{
+    fill: black;
+    font-size: 1.4em;
+    font-weight: 1000;
+}
+.dangerRn{
+    fill: #ff2e5554;
+    animation: flash5 1.5s ease-in-out forwards infinite; 
+}
+@keyframes flash5{
+    0%{
+        opacity: 0;
+        stroke-opacity: 0;
+    }50%{
+        opacity: 0.5;
+        stroke-opacity: 0.32;
+    }100%{
+        opacity: 0;
+        stroke-opacity: 0;
+    }
+}
+
+
+
+
+
+.alcaClpM{
+    stroke: #FFCC00;
+    transition: 2s;
+}
+.clpTsca{
+    stroke: #FFCC00;   
+    transition: 2s;
+}
+.tscaCpl{
+    stroke: #FFCC00;
+    transition: 2s;
+}
+.cplShcc{
+    stroke: #FFCC00;
+    transition: 2s;
+}
+.cplAlma{
+    stroke: #FFCC00;
+    transition: 2s;
+}
+.almaPm1{
+    stroke: #FFCC00;
+    transition: 2s; 
+}
+
+.cplAlmaB{
+    opacity: 0.3;
+}
+.cplShccB{
+    opacity: 0.3;
+}
+.cplChccB{
+    opacity: 0.3;
+}
+.cplspcaB{
+    opacity: 0.3;
+}
+.almapm1B{
+    opacity: 0.3;
+}
+.car_3{
+    animation: moveCar3 26s ease-in-out forwards infinite;
+    cursor: pointer;
+}
+@keyframes moveCar3{
+    from{
+        
+    }to{
+
+    }
+}
+#carTsca{
+    animation: moveCarTsca 5s ease-in-out forwards infinite;
+    cursor: pointer;
+    display: block;
+}
+@keyframes moveCarTsca{
+    0%{
+        transform: translate(883px, 205px);
+    }
+    5%{
+        opacity: 1;
+    }
+    40%{
+        transform: translate(1048px, 207px);
+    }
+    60%{
+        transform: translate(1076px, 239px);
+    }
+    100%{
+        transform: translate(1078px, 783px);
+    }
+}
+/*Car animations*/
+#car_1{
+    animation: moveCar 5s ease-in-out forwards infinite;
+    cursor: pointer;
+    display: block;
+    
+}
+@keyframes moveCar{
+    0%{
+        opacity: 0;
+    
+    }10%{
+            opacity: 1;
+    }15%{
+        transform: translate(503px, 205px);
+    }
+    98%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+            transform: translate(883px, 205px);
+  }
+}
+#car_Alma{
+    animation: moveCar3 5s ease-in-out forwards infinite;
+    cursor: pointer;
+    display: block;
+}
+@keyframes moveCar3{
+    0%{
+        opacity: 0;
+    
+    }10%{
+            opacity: 1;
+    }15%{
+        transform: translate(1079px, 779px);
+    }
+    40%{
+        transform: translate(1079px, 1039px)
+    }
+    45%{
+        transform: translate(1097px, 1039px)
+    }
+    98%{
+        opacity: 1;
+    }
+    100%{
+            transform: translate(1269px, 1039px);
+  }
+}
+
+#car_7{
+    animation: moveCar7 5s ease-in-out forwards infinite ;
+    cursor: pointer;
+    display: block;
+}
+@keyframes moveCar7{
+    0%{
+        opacity: 0;
+        transform: translate(1269px, 1036px);
+    }10%{
+            opacity: 1;
+    }15%{
+        transform: translate(1269px, 1036px);
+    }
+    98%{
+        opacity: 1;
+    }
+    100%{
+            transform: translate(1654px, 1036px);
+  }
+}
+#car_8{
+    animation: moveCar8 5s ease-in-out forwards infinite ;
+    cursor: pointer;
+    display: block;
+}
+@keyframes moveCar7{
+    0%{
+        opacity: 0;
+        transform: translate(1654px, 1036px);
+    }10%{
+            opacity: 1;
+    }15%{
+    }
+    98%{
+        opacity: 0;
+    }
+    99%{
+        opacity: 1;
+    }
+    100%{
+            transform: translate(2039px, 1036px);
+  }
+}
+#carMrob{
+    animation: moveCar9 5s ease-in-out forwards infinite ;
+    cursor: pointer;
+    display: block;
+}
+@keyframes moveCar9{
+    0%{
+        opacity: 0;
+        transform: translate(2039px, 1036px);
+    }10%{
+            opacity: 1;
+    }
+    99%{
+        opacity: 1;
+    }
+    100%{
+            transform: translate(2422px, 1036px);
+  }
+}
+#carTabl{
+    animation: moveCar10 5s ease-in-out forwards infinite ;
+    cursor: pointer;
+    display: block;
+}
+@keyframes moveCar10{
+    0%{
+        opacity: 0;
+        transform: translate(2422px, 1036px);
+    }10%{
+            opacity: 1;
+    }
+    99%{
+        opacity: 1;
+    }
+    100%{
+            transform: translate(2805px, 1036px);
+  }
+}
+#carBavo{
+    animation: moveCar11 5s ease-in-out forwards infinite ;
+    cursor: pointer;
+    display: block;
+}
+@keyframes moveCar11{
+    0%{
+        opacity: 0;
+        transform: translate(2805px, 1036px);
+    }10%{
+            opacity: 1;
+    }
+    99%{
+        opacity: 1;
+    }
+    100%{
+            transform: translate(3191px, 1036px);
+  }
+}
+#carDacq{
+    animation: moveCar12 5s ease-in-out forwards infinite ;
+    cursor: pointer;
+    display: block;
+}
+@keyframes moveCar12{
+    0%{
+        opacity: 0;
+        transform: translate(3191px, 1036px);
+    }10%{
+            opacity: 1;
+    }
+    40%{
+    transform: translate(3191px, 1194px);
+    }
+    46%{
+    transform: translate(3154px, 1227px);
+  }
+  60%{
+    transform: translate(3065px, 1227px);
+  }
+  80%{
+    transform: translate(2934px, 1359px);
+  }
+  100%{
+    transform: translate(2934px, 1550px);
+  }
+}
+#carSmas{
+    animation: moveCar13 5s ease-in-out forwards infinite ;
+    cursor: pointer;
+    display: block;
+}
+@keyframes moveCar13{
+    0%{
+        opacity: 0;
+        transform: translate(2678px, 1358px);
+    }10%{
+            opacity: 1;
+    }
+
+  100%{
+    transform: translate(2291px, 1358px);
+  }
+}
+#carAtra{
+    animation: moveCar14 5s ease-in-out forwards infinite ;
+    cursor: pointer;
+    display: block;
+}
+@keyframes moveCar14{
+    0%{
+        opacity: 0;
+        transform: translate(2291px, 1358px);
+    }10%{
+            opacity: 1;
+            transform: translate(2234px, 1358px);
+    }
+60%{
+    transform: translate(1968px, 1612px);
+}
+  100%{
+    transform: translate(1717px, 1612px);
+  }
+}   
+#carApap{
+    animation: moveCar15 5s ease-in-out forwards infinite ;
+    cursor: pointer;
+    display: block;
+}
+@keyframes moveCar15{
+    0%{
+        opacity: 0;
+        transform: translate(1717px, 1612px);
+    }10%{
+        opacity: 1;
+    }
+60%{
+    transform: translate(1459px, 1612px);
+}
+  80%{
+    transform: translate(1392px, 1676px);
+  }
+  100%{ 
+    transform: translate(1334px, 1676px);
+}
+} 
+#carAet2{
+    animation: moveCar16 5s ease-in-out forwards infinite ;
+    cursor: pointer;
+    display: block;
+}
+@keyframes moveCar16{
+    0%{
+        opacity: 0;
+        transform: translate(1334px, 1676px);
+    }10%{
+        opacity: 1;
+    }
+30%{
+    transform: translate(1273px, 1676px);
+}
+  60%{
+    transform: translate(1202px, 1614px);
+  }
+  100%{ 
+    transform: translate(940px, 1614px);
+}
+} 
+#carVida{
+    animation: moveCar17 5s ease-in-out forwards infinite ;
+    cursor: pointer;
+    display: block;
+}
+@keyframes moveCar17{
+    0%{
+        opacity: 0;
+        transform: translate(940px, 1614px);
+    }10%{
+        opacity: 1;
+    }
+  100%{ 
+    transform: translate(565px, 1614px);
+    }
+} 
+#carPaal{
+    animation: moveCar18 5s ease-in-out forwards infinite ;
+    cursor: pointer;
+    display: block;
+}
+@keyframes moveCar18{
+    0%{
+        opacity: 0;
+        transform: translate(565px, 1614px);
+    }3%{
+        opacity: 1;
+    }
+    12%{
+        transform: translate(374px, 1614px);
+    }
+    80%{
+        transform: translate(374px, 1968px);
+    }
+    88%{
+        transform: translate(408px, 1997px);
+    }
+  100%{ 
+    transform: translate(568px, 1997px);
+    }
+}  
+#carAla1{
+    animation: moveCar19 5s ease-in-out forwards infinite ;
+    cursor: pointer;
+    display: block;
+}
+@keyframes moveCar19{
+    0%{
+        opacity: 0;
+        transform: translate(568px, 1997px);
+    }3%{
+        opacity: 1;
+    }
+    50%{
+        transform: translate(825px, 1997px);
+    }
+    80%{
+        transform: translate(886px, 1933px);
+    }
+  100%{ 
+    transform: translate(954px, 1933px);
+    }
+}  
+#carTrco{
+    animation: moveCar20 5s ease-in-out forwards infinite ;
+    cursor: pointer;
+    display: block;
+}
+@keyframes moveCar20{
+    0%{
+        opacity: 0;
+        transform: translate(954px, 1933px);
+    }3%{
+        opacity: 1;
+    }
+    50%{
+        transform: translate(1210px, 1933px);
+    }
+    80%{
+        transform: translate(1277px, 1872px);
+    }
+  100%{ 
+    transform: translate(1333px, 1872px);
+    }
+} 
+#carAtrc{
+    animation: moveCar22 5s ease-in-out forwards infinite ;
+    cursor: pointer;
+    display: block;
+}
+@keyframes moveCar22{
+    0%{
+        opacity: 0;
+        transform: translate(1333px, 1872px);
+    }3%{
+        opacity: 1;
+    }
+    20%{
+        transform: translate(1396px, 1872px);
+    }
+    60%{
+        transform: translate(1465px, 1933px);
+    }
+  100%{ 
+    transform: translate(1721px, 1933px);
+    }
+} 
+#carLaq1{
+    animation: moveCar23 5s ease-in-out forwards infinite ;
+    cursor: pointer;
+    display: block;
+}
+@keyframes moveCar23{
+    0%{
+        opacity: 0;
+        transform: translate(1721px, 1933px);
+    }3%{
+        opacity: 1;
+    }
+    20%{
+        transform: translate(1779px, 1933px);
+    }
+    60%{
+        transform: translate(1971px, 2123px);
+    }
+  100%{ 
+        transform: translate(2230px, 2123px);
+    }
+}
+#carStol{
+    animation: moveCar24 5s ease-in-out forwards infinite ;
+    cursor: pointer;
+    display: block;
+}
+@keyframes moveCar24{
+    0%{
+        opacity: 0;
+        transform: translate(2228px, 2122px);
+    }3%{
+        opacity: 1;
+    }
+    100%{ 
+        transform: translate(2615px, 2126px);
+    }
+}
+#carTstl{
+    animation: moveCar25 5s ease-in-out forwards infinite ;
+    cursor: pointer;
+    display: block;
+}
+@keyframes moveCar25{
+    0%{
+        opacity: 0;
+        transform: translate(2615px, 2126px);
+    }3%{
+        opacity: 1;
+    }
+    60%{
+        transform: translate(2872px, 2126px);
+    }
+    80%{      
+        transform: translate(2944px, 2064px);
+    }
+    100%{ 
+        transform: translate(2999px, 2064px);
+    }
+}
+#carCqrp{
+    animation: moveCar26 5s ease-in-out forwards infinite ;
+    cursor: pointer;
+    display: block;
+}
+@keyframes moveCar26{
+    0%{
+        opacity: 0;
+        transform: translate(2999px, 2064px);
+    }3%{
+        opacity: 1;
+    }
+    15%{
+        transform: translate(3054px, 2064px);
+    }
+    30%{      
+        transform: translate(3126px, 2126px);
+    }
+    40%{
+        transform: translate(3190px, 2126px);
+    }
+    100%{    
+        transform: translate(3190px, 2447px);
+    }
+}
+#carFip1{
+    animation: moveCar27 5s ease-in-out forwards infinite ;
+    cursor: pointer;
+    display: block;
+}
+@keyframes moveCar27{
+    0%{
+        opacity: 0;
+        transform: translate(3190px, 2447px);
+    }3%{
+        opacity: 1;
+    }
+
+    50%{
+        transform: translate(3190px, 2959px);
+    }
+    80%{
+        transform: translate(3324px, 3085px);
+    }
+    100%{     
+        transform: translate(3381px, 3085px);
+    }
+}
+#carEvap{
+    animation: moveCar28 5s ease-in-out forwards infinite ;
+    cursor: pointer;
+    display: block;
+}
+@keyframes moveCar28{
+    0%{
+        opacity: 0;
+        transform: translate(3381px, 3085px);
+    }3%{
+        opacity: 1;
+    }
+
+    60%{
+        transform: translate(3639px, 3085px);
+    }
+    90%{
+        transform: translate(3712px, 3024px);
+    }
+    100%{     
+        transform: translate(3767px, 3024px);
+    }
+}
+#carBout{
+    animation: moveCar29 5s ease-in-out forwards infinite ;
+    cursor: pointer;
+    display: block;
+}
+@keyframes moveCar29{
+    0%{
+        opacity: 0;
+        transform: translate(2870px, 3534px);
+    }3%{
+        opacity: 1;
+    }
+
+    10%{
+        transform: translate(2809px, 3534px);
+    }
+    25%{
+        transform: translate(2675px, 3662px);
+    }
+    40%{
+        transform: translate(2551px, 3662px);
+
+    }
+    85%{
+        transform: translate(2415px, 3536px);
+    }
+    100%{     
+    transform: translate(2354px, 3536px);
+    }
+}
+#carEret{
+    animation: moveCar31 5s ease-in-out forwards infinite ;
+    cursor: pointer;
+    display: block;
+}
+@keyframes moveCar31{
+    0%{
+        opacity: 0;
+        transform: translate(2354px, 3536px);
+    }3%{
+        opacity: 1;
+    }
+    100%{     
+        transform: translate(2163px, 3536px);
+    }
+}
+#carAret{
+    animation: moveCar32 5s ease-in-out forwards infinite ;
+    cursor: pointer;
+    display: block;
+}
+@keyframes moveCar32{
+    0%{
+        opacity: 0;
+        transform: translate(2163px, 3536px);
+    }3%{
+        opacity: 1;
+    }
+    100%{     
+        transform: translate(1781px, 3536px);
+    }
+}
+#carZtcp{
+    animation: moveCar33 5s ease-in-out forwards infinite ;
+    cursor: pointer;
+    display: block;
+}
+@keyframes moveCar33{
+    0%{
+        opacity: 0;
+        transform: translate(1781px, 3536px);
+    }3%{
+        opacity: 1;
+    }
+    100%{     
+        transform: translate(1397px, 3536px);
+    }
+}
+#carAmtk{
+    animation: moveCar34 5s ease-in-out forwards infinite ;
+    cursor: pointer;
+    display: block;
+}
+@keyframes moveCar34{
+    0%{
+        opacity: 0;
+        transform: translate(1397px, 3536px);
+    }3%{
+        opacity: 1;
+    }
+    15%{
+        transform: translate(1237px, 3536px);
+    }
+    20%{
+        transform: translate(1207px, 3579px);
+    }
+    70%{
+        transform: translate(1207px, 4270px);
+    }
+    80%{
+        transform: translate(1252px, 4301px);
+    }
+    100%{
+        transform: translate(1591px, 4301px);
+    }
+}
+#carArhd{
+    animation: moveCar35 5s ease-in-out forwards infinite ;
+    cursor: pointer;
+    display: block;
+}
+@keyframes moveCar35{
+    0%{
+        opacity: 0;
+        transform: translate(1591px, 4301px);
+    }3%{
+        opacity: 1;
+    }
+    100%{
+        transform: translate(1975px, 4301px);
+    }
+}
+#carRhd{
+    animation: moveCar36 5s ease-in-out forwards infinite ;
+    cursor: pointer;
+    display: block;
+}
+@keyframes moveCar36{
+    0%{
+        opacity: 0;
+        transform: translate(1975px, 4301px);
+    }3%{
+        opacity: 1;
+    }
+    100%{
+        transform: translate(2487px, 4301px);
+    }
+}
+#carAmci{
+    animation: moveCar37 5s ease-in-out forwards infinite ;
+    cursor: pointer;
+    display: block;
+}
+@keyframes moveCar37{
+    0%{
+        opacity: 0;
+        transform: translate(2487px, 4301px);
+    }3%{
+        opacity: 1;
+    }
+    100%{
+        transform: translate(2871px, 4301px);
+    }
+}
+#carCire{
+    animation: moveCar38 5s ease-in-out forwards infinite ;
+    cursor: pointer;
+    display: block;
+}
+@keyframes moveCar38{
+    0%{
+        opacity: 0;
+        transform: translate(2871px, 4301px);
+    }3%{
+        opacity: 1;
+    }
+    100%{
+        transform: translate(3255px, 4301px);
+    }
+}
+#car6op3{
+    animation: moveCar39 5s ease-in-out forwards infinite ;
+    cursor: pointer;
+    display: block;
+}
+@keyframes moveCar39{
+    0%{
+        opacity: 0;
+        transform: translate(3255px, 4301px);
+    }3%{
+        opacity: 1;
+    }
+    100%{
+        transform: translate(3639px, 4301px);
+    }
+}
+#carZcqs{
+    animation: moveCar40 5s ease-in-out forwards infinite ;
+    cursor: pointer;
+    display: block;
+}
+@keyframes moveCar40{
+    0%{
+        opacity: 0;
+        transform: translate(2870px, 3661px);
+    }3%{
+        opacity: 1;
+    }
+    40%{
+        transform: translate(2555px, 3661px);
+    }
+    90%{
+        transform: translate(2404px, 3789px);
+    }
+    100%{
+        transform: translate(2357px, 3789px);
+    }
+}
+/* car animations end*/
+/* tooltip css */
+#ARHD{
+    position: absolute;
+}
+#show{
+    z-index: 20;
+}

@@ -1,0 +1,161 @@
+
+.alcaClpM{
+    stroke: #FFCC00;
+    transition: 2s;
+}
+.clpTsca{
+    stroke: #FFCC00;   
+    transition: 2s;
+}
+.tscaCpl{
+    stroke: #FFCC00;
+    transition: 2s;
+}
+.cplShcc{
+    stroke: #FFCC00;
+    transition: 2s;
+}
+.cplAlma{
+    stroke: #FFCC00;
+    transition: 2s;
+}
+.almaPm1{
+    stroke: #FFCC00;
+    transition: 2s; 
+}
+.car_2{
+    animation: moveCar2 20s ease-in-out forwards ;
+    cursor: pointer;
+}
+
+.cplAlmaB{
+    opacity: 0.3;
+}
+.cplShccB{
+    opacity: 0.3;
+}
+.cplChccB{
+    opacity: 0.3;
+}
+.cplspcaB{
+    opacity: 0.3;
+}
+.almapm1B{
+    opacity: 0.3;
+}
+.car_3{
+    animation: moveCar3 26s ease-in-out forwards ;
+    cursor: pointer;
+}
+@keyframes moveCar3{
+    from{
+        
+    }to{
+
+    }
+}
+.sam{
+    transform: translate(1079, 780)
+}
+.CarM{
+    display:block;
+}
+
+/*Car animations*/
+#car_1{
+    animation: moveCar 5s ease-in-out forwards ;
+    cursor: pointer;
+    display: block;
+    
+}
+@keyframes moveCar{
+    0%{
+        opacity: 0;
+    
+    }10%{
+            opacity: 1;
+    }15%{
+        transform: translate(503px, 205px);
+    }
+    98%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+            transform: translate(883px, 205px);
+  }
+}
+#car_3{
+    animation: moveCar3 5s ease-in-out forwards ;
+    cursor: pointer;
+    display: solid;
+}
+@keyframes moveCar3{
+    0%{
+        opacity: 0;
+    
+    }10%{
+            opacity: 1;
+    }15%{
+        transform: translate(1079px, 779px);
+    }
+    40%{
+        transform: translate(1079px, 1039px)
+    }
+    45%{
+        transform: translate(1097px, 1039px)
+    }
+    98%{
+        opacity: 1;
+    }
+    100%{
+            transform: translate(1269px, 1039px);
+  }
+}
+
+#car_7{
+    animation: moveCar7 5s ease-in-out forwards infinite ;
+    cursor: pointer;
+    display: solid;
+}
+@keyframes moveCar7{
+    0%{
+        opacity: 0;
+        transform: translate(1269px, 1036px);
+    }10%{
+            opacity: 1;
+    }15%{
+        transform: translate(1269px, 1036px);
+    }
+    98%{
+        opacity: 1;
+    }
+    100%{
+            transform: translate(1654px, 1036px);
+  }
+}
+#car_8{
+    animation: moveCar8 5s ease-in-out forwards infinite ;
+    cursor: pointer;
+    display: solid;
+}
+@keyframes moveCar7{
+    0%{
+        opacity: 0;
+        transform: translate(1654px, 1036px);
+    }10%{
+            opacity: 1;
+    }15%{
+    }
+    98%{
+        opacity: 0;
+    }
+    99%{
+        opacity: 1;
+    }
+    100%{
+            transform: translate(2039px, 1036px);
+  }
+}
+
+/* car animations end*/
