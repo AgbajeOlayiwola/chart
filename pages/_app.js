@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import Index from '../components/chart/index';
+import Index from '../components/chart/index.tsx';
 
 function MyApp({ Component, pageProps }) {
   return (

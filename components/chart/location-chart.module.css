@@ -67,6 +67,11 @@
     font-size: 1.4em;
     font-weight: 1000;
 }
+.areaHeavy{
+    fill: black;
+    font-size: 2em;
+    font-weight: 1000; 
+}
 .dangerRn{
     fill: #ff2e5554;
     animation: flash5 1.5s ease-in-out forwards infinite; 
